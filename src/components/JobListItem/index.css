@@ -1,0 +1,77 @@
+.each-job-item-container {
+  background-color: #202020;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  margin-bottom: 25px;
+  border-radius: 14px;
+}
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  padding: 20px;
+}
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  width: 7%;
+}
+.title {
+  font-size: 16px;
+  color: snow;
+  margin-bottom: 0;
+}
+.star-icon-rating-container {
+  display: flex;
+  align-items: center;
+  line-height: 10px;
+}
+.rating-para {
+  color: snow;
+  margin-left: 12px;
+}
+.star-icons {
+  color: #fbbf24;
+}
+.about-job-container {
+  display: flex;
+  justify-content: space-between;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+}
+.location-icon {
+  color: snow;
+  margin-right: 12px;
+  font-size: 20px;
+}
+.location-para {
+  color: snow;
+  margin-right: 16px;
+}
+.emp-type-para {
+  color: snow;
+}
+.package-PA-para {
+  color: snow;
+  font-size: 20px;
+}
+.horizontal-rule {
+  margin-top: 0;
+}
+.description-para {
+  color: snow;
+  font-size: 20px;
+}
+.job-descp-para {
+  color: snow;
+  font-size: 15px;
+}
+.link-item-jobs {
+  text-decoration: none;
+  list-style: none;
+}

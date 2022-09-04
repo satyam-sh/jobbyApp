@@ -1,0 +1,90 @@
+nav {
+  display: flex;
+  align-items: center;
+  height: 84px;
+  background-color: #272727;
+}
+.header-list-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+.header-logo-link {
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .header-list-container {
+    width: 95%;
+    padding-left: 18px;
+  }
+}
+.lg-devices {
+  display: flex;
+  color: snow;
+
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .lg-devices {
+    display: none;
+  }
+}
+.lg-device-btn {
+  background-color: #6366f1;
+  outline: none;
+  border: none;
+  color: snow;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 6px;
+  width: 130px;
+}
+@media screen and (max-width: 768px) {
+  .lg-device-btn {
+    display: none;
+  }
+}
+.sm-devices-icons-container {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .sm-devices-icons-container {
+    display: block;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin-right: 10px;
+  }
+  .icons-sm {
+    color: snow;
+    font-size: 24px;
+  }
+}
+.website-logo-header {
+  width: 60%;
+}
+@media screen and (max-width: 768px) {
+  .website-logo-header {
+    width: 55%;
+  }
+}
+.link-item {
+  text-decoration: none;
+  color: snow;
+  margin-right: 20px;
+}
+.exit-logo {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .exit-logo {
+    display: block;
+    margin-top: 4px;
+  }
+}

@@ -1,0 +1,72 @@
+.each-similar-items-container {
+  background-color: #202020;
+  padding: 40px;
+  width: 30%;
+  border-radius: 12px;
+}
+@media screen and (max-width: 768px) {
+  .each-similar-items-container {
+    width: 100%;
+    margin: auto;
+    padding: 14px;
+    margin-bottom: 20px;
+  }
+}
+.similar-item-logo-rating-container {
+  display: flex;
+  align-items: center;
+}
+.similar-item-image {
+  width: 25%;
+}
+@media screen and (max-width: 768px) {
+  .similar-item-image {
+    width: 16%;
+  }
+}
+.similar-item-title-rating-container {
+  margin-left: 12px;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+}
+.similar-item-description-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: normal;
+}
+@media screen and (max-width: 768px) {
+  .similar-item-description-heading {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+.similar-item-desc {
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.star-container {
+  display: flex;
+  align-items: center;
+}
+.icon-s {
+  margin-right: 8px;
+  color: yellow;
+  font-size: 22px;
+}
+.similar-item-job-location-container {
+  display: flex;
+  align-items: center;
+}
+.lo {
+  margin-right: 10px;
+}
+.location-text {
+  margin-right: 14px;
+}
+.bf {
+  margin-right: 10px;
+}

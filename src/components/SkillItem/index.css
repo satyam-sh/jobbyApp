@@ -1,0 +1,27 @@
+.skill-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 30px;
+  color: snow;
+}
+@media screen and (max-width: 768px) {
+  .skill-items {
+    width: 40%;
+  }
+}
+.skill-image {
+  width: 16%;
+  margin-right: 16px;
+}
+.skill-text {
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .skill-text {
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
